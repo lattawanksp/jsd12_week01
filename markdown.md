@@ -1,4 +1,6 @@
 Creat yourself s markdown cheatsheet
+
+Basic command
 -----------------------------------------------------------------------
 - ls (List) = แสดงรายชื่อไฟล์และโฟลเดอร์ในตำแหน่งปัจจุบัน
 - mkdir (Make Directory) = สร้างโฟลเดอร์ใหม่
@@ -19,27 +21,12 @@ Creat yourself s markdown cheatsheet
 remark: พิมพ์ --help ต่อได้ทุกคำสั่ง หากมีเวลาอ่านวิธีใช้
 
 
-
-🔹 จุด . คืออะไร?
-. = โฟลเดอร์ปัจจุบัน
-
-Mental model:
-. = ที่ที่คุณยืนอยู่ตอนนี้
-.. = โฟลเดอร์แม่
-
-🔹 -r คืออะไร?
--r = reuse window
-แปลว่า “เปิดในหน้าต่างเดิม” (?) มั้ย 
-
-ถ้าไม่ใส่ -r บางที VS Code จะเปิดหน้าต่างใหม่
-
-🔥 สรุปความหมาย
-code -r .
-
-= เปิดโฟลเดอร์ปัจจุบันใน VS Code
-= ใช้หน้าต่างเดิม
-
-
+Git----------
+git init     สร้างถังเก็บ
+git add .     เพิ่มไฟล์เข้า staging
+git commit -m "describe what you changed"    Commit
+git push origin main       Push ขึ้น GitHub
+git push
 
 
 Woowoowoo
