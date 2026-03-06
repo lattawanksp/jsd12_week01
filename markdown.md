@@ -21,12 +21,25 @@ Basic command
 remark: พิมพ์ --help ต่อได้ทุกคำสั่ง หากมีเวลาอ่านวิธีใช้
 
 
-Git----------
-git init     สร้างถังเก็บ
+Git----------------------------------------------
+git init     สร้างถังเก็บ (Repository) ใหม่ในโฟลเดอร์ปัจจุบัน ทำครั้งเดียวตอนเริ่ม
 git add .     เพิ่มไฟล์เข้า staging
+git add ชื่อไฟล์    เพิ่มเฉพาะไฟล์เดียว
 git commit -m "describe what you changed"    Commit
 git push origin main       Push ขึ้น GitHub
 git push
 
+git log --oneline   เช็ค history
+git remote -v       เช็ค repository
 
+rm -rf .git   remove recursive(ทั้งโฟลเดอร์และข้างใน) force(บังคับลบ) โฟลเดอร์ที่เก็บข้อมูล Git
+ls -la    list files -l แสดงแบบ list รายละเอียด -a แสดงไฟล์ hidden
+
+git branch -m main       เปลี่ยน branch
+
+git clone URL    clone งานใน github มาใส่
+
+
+
+---------------------------------------------------------------------
 Woowoowoo
